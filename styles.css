@@ -9,3 +9,30 @@
 .projects img {
     width: 10px;
 }
+
+.trending img {
+    width: 10px;
+}
+
+
+
+.entire-page {
+    display: grid;
+    grid-template-columns: minmax(120px, 1fr) 4fr;
+}
+
+.dashboard {
+    grid-row: 1 / 3;
+    background-color: rgb(5, 121, 230);
+    color: white;
+    padding: .3rem;
+}
+
+.dashboard-title {
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.dashboard-title img {
+    width: 1.5rem;
+}
