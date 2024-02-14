@@ -147,18 +147,30 @@ body {
 
 .project-cards {
     box-shadow: 
-        inset 5px 0px orange,
+        /* inset 5px 0px orange, */
         0px 5px 5px rgb(128, 128, 128, .5);
-    border-radius: .3rem;
+    border-radius: .5rem;
+    height: 14rem;
     padding: 0rem 2rem;
     display: grid;
     align-content: start;
+    position: relative;
+}
+
+.project-cards span {
+    position: absolute;
+    width: .5rem;
+    height: 14rem;
+    background-color: orange;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .project-cards-img {
     justify-self: end;
     display: flex;
     gap: 1rem;
+    margin: 3rem 0rem;
 }
 
 .project-cards img {
@@ -171,4 +183,5 @@ body {
 
 .project-cards p {
     margin-top: 0px;
+    height: 5rem;
 }
