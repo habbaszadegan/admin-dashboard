@@ -211,6 +211,7 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    position: relative;
 }
 
 .announcement-cards :first-child {
@@ -233,8 +234,9 @@ body {
     margin: 0px;
 }
 
-#grey {
+.announcement-cards span {
+    position: absolute;
     background-color: grey;
-    height: 50px;
-    width: 50px;
+    height: 1px;
+    width: 75%;
 }
