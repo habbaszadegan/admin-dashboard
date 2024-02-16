@@ -11,11 +11,9 @@ body {
     width: 15px;
 }
 
-
-
 .entire-page {
     display: grid;
-    grid-template-columns: minmax(170px, 1fr) 4fr;
+    grid-template-columns: minmax(170px, 1fr) 5fr;
 }
 
 .dashboard {
@@ -182,7 +180,7 @@ body {
     border-bottom-left-radius: 1rem;
 }
 
-.project-cards-img {
+.project-cards-img {    /* div containing image icons */
     justify-self: end;
     display: flex;
     gap: 1rem;
@@ -224,18 +222,18 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-.announcement-cards div {
-    flex-shrink: 0rem;
+.announcement-cards div > div {
     padding: 2rem;
 }
 
-.announcement-cards > div > h5,
-.announcement-cards > div > p {
+.announcement-cards > div > div > h5,
+.announcement-cards > div > div > p {
     margin: 0px;
 }
 
 .announcement-cards span {
     position: absolute;
+    left: 12%;
     background-color: grey;
     height: 1px;
     width: 75%;
